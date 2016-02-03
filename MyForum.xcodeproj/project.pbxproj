@@ -7,14 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1508B7C91C57F67000A08CC7 /* favoriteCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508B7C81C57F67000A08CC7 /* favoriteCommentTableViewCell.swift */; };
+		151109C21C46E1AA00747EA8 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151109C11C46E1AA00747EA8 /* photosViewController.swift */; };
+		151109C41C47FBF700747EA8 /* ForumPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151109C31C47FBF700747EA8 /* ForumPost.swift */; };
+		1522A2671C4DDD9100BA7D3C /* commentsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A2661C4DDD9100BA7D3C /* commentsScrollView.swift */; };
+		1522A2691C4EEF3F00BA7D3C /* ForumComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A2681C4EEF3F00BA7D3C /* ForumComment.swift */; };
+		1522A26B1C4EF15800BA7D3C /* newForumPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A26A1C4EF15800BA7D3C /* newForumPostViewController.swift */; };
+		1522A26F1C4FFD5800BA7D3C /* commentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A26E1C4FFD5800BA7D3C /* commentsViewController.swift */; };
+		1522A2711C50021B00BA7D3C /* commentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */; };
+		1535BE321C61149E0006BD5A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535BE311C61149E0006BD5A /* HomeViewController.swift */; };
 		1571BD581C443FB500E60C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD571C443FB500E60C19 /* AppDelegate.swift */; };
-		1571BD5A1C443FB500E60C19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD591C443FB500E60C19 /* ViewController.swift */; };
+		1571BD5A1C443FB500E60C19 /* logiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD591C443FB500E60C19 /* logiViewController.swift */; };
 		1571BD5D1C443FB500E60C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1571BD5B1C443FB500E60C19 /* Main.storyboard */; };
-		1571BD601C443FB500E60C19 /* MyForum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD5E1C443FB500E60C19 /* MyForum.xcdatamodeld */; };
 		1571BD621C443FB500E60C19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1571BD611C443FB500E60C19 /* Assets.xcassets */; };
 		1571BD651C443FB500E60C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1571BD631C443FB500E60C19 /* LaunchScreen.storyboard */; };
 		1571BD701C443FB600E60C19 /* MyForumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD6F1C443FB600E60C19 /* MyForumTests.swift */; };
 		1571BD7B1C443FB600E60C19 /* MyForumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD7A1C443FB600E60C19 /* MyForumUITests.swift */; };
+		1571BD891C4440A500E60C19 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD881C4440A500E60C19 /* registerViewController.swift */; };
+		1571BD8D1C447D2B00E60C19 /* ForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD8C1C447D2B00E60C19 /* ForumTableViewCell.swift */; };
+		1571BD961C44866000E60C19 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD901C44866000E60C19 /* Bolts.framework */; };
+		1571BD971C44866000E60C19 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD911C44866000E60C19 /* Parse.framework */; };
+		1571BD981C44866000E60C19 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD921C44866000E60C19 /* ParseFacebookUtils.framework */; };
+		1571BD991C44866000E60C19 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD931C44866000E60C19 /* ParseFacebookUtilsV4.framework */; };
+		1571BD9A1C44866000E60C19 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD941C44866000E60C19 /* ParseTwitterUtils.framework */; };
+		1571BD9B1C44866000E60C19 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD951C44866000E60C19 /* ParseUI.framework */; };
+		1571BD9D1C45448F00E60C19 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD9C1C45448F00E60C19 /* AudioToolbox.framework */; };
+		1571BDA61C4544BE00E60C19 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD9E1C4544BE00E60C19 /* CFNetwork.framework */; };
+		1571BDA71C4544BE00E60C19 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BD9F1C4544BE00E60C19 /* CoreGraphics.framework */; };
+		1571BDA81C4544BE00E60C19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDA01C4544BE00E60C19 /* CoreLocation.framework */; };
+		1571BDA91C4544BE00E60C19 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDA11C4544BE00E60C19 /* libz.tbd */; };
+		1571BDAA1C4544BE00E60C19 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDA21C4544BE00E60C19 /* QuartzCore.framework */; };
+		1571BDAB1C4544BE00E60C19 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDA31C4544BE00E60C19 /* Security.framework */; };
+		1571BDAC1C4544BE00E60C19 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDA41C4544BE00E60C19 /* StoreKit.framework */; };
+		1571BDAD1C4544BE00E60C19 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDA51C4544BE00E60C19 /* SystemConfiguration.framework */; };
+		1571BDB21C45482D00E60C19 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1571BDB11C45482D00E60C19 /* libsqlite3.dylib */; };
+		1571BDB41C4551F100E60C19 /* newPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BDB31C4551F100E60C19 /* newPhotoViewController.swift */; };
+		15F7B7D91C52B1740029803F /* FavoriteComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F7B7D81C52B1740029803F /* FavoriteComment.swift */; };
+		15F7B7DB1C52B1BE0029803F /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F7B7DA1C52B1BE0029803F /* CoreDataStackManager.swift */; };
+		15F7B7DD1C52B3620029803F /* favoriteCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F7B7DC1C52B3620029803F /* favoriteCommentViewController.swift */; };
+		15F7B7E01C52B97E0029803F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15F7B7DE1C52B97E0029803F /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +66,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1508B7C81C57F67000A08CC7 /* favoriteCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteCommentTableViewCell.swift; sourceTree = "<group>"; };
+		151109C11C46E1AA00747EA8 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosViewController.swift; sourceTree = "<group>"; };
+		151109C31C47FBF700747EA8 /* ForumPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumPost.swift; sourceTree = "<group>"; };
+		1522A2661C4DDD9100BA7D3C /* commentsScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsScrollView.swift; sourceTree = "<group>"; };
+		1522A2681C4EEF3F00BA7D3C /* ForumComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumComment.swift; sourceTree = "<group>"; };
+		1522A26A1C4EF15800BA7D3C /* newForumPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newForumPostViewController.swift; sourceTree = "<group>"; };
+		1522A26E1C4FFD5800BA7D3C /* commentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsViewController.swift; sourceTree = "<group>"; };
+		1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsTableViewCell.swift; sourceTree = "<group>"; };
+		1535BE311C61149E0006BD5A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1571BD541C443FB500E60C19 /* MyForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1571BD571C443FB500E60C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1571BD591C443FB500E60C19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1571BD591C443FB500E60C19 /* logiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logiViewController.swift; sourceTree = "<group>"; };
 		1571BD5C1C443FB500E60C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1571BD5F1C443FB500E60C19 /* MyForum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyForum.xcdatamodel; sourceTree = "<group>"; };
 		1571BD611C443FB500E60C19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1571BD641C443FB500E60C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1571BD661C443FB500E60C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +88,30 @@
 		1571BD761C443FB600E60C19 /* MyForumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyForumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1571BD7A1C443FB600E60C19 /* MyForumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyForumUITests.swift; sourceTree = "<group>"; };
 		1571BD7C1C443FB600E60C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1571BD881C4440A500E60C19 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		1571BD8C1C447D2B00E60C19 /* ForumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumTableViewCell.swift; sourceTree = "<group>"; };
+		1571BD901C44866000E60C19 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1571BD911C44866000E60C19 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1571BD921C44866000E60C19 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		1571BD931C44866000E60C19 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		1571BD941C44866000E60C19 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		1571BD951C44866000E60C19 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		1571BD9C1C45448F00E60C19 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1571BD9E1C4544BE00E60C19 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1571BD9F1C4544BE00E60C19 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1571BDA01C4544BE00E60C19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1571BDA11C4544BE00E60C19 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1571BDA21C4544BE00E60C19 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1571BDA31C4544BE00E60C19 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1571BDA41C4544BE00E60C19 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1571BDA51C4544BE00E60C19 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1571BDAE1C45454D00E60C19 /* MyForum-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyForum-Bridging-Header.h"; sourceTree = "<group>"; };
+		1571BDB11C45482D00E60C19 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		1571BDB31C4551F100E60C19 /* newPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPhotoViewController.swift; sourceTree = "<group>"; };
+		15F7B7D81C52B1740029803F /* FavoriteComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteComment.swift; sourceTree = "<group>"; };
+		15F7B7DA1C52B1BE0029803F /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStackManager.swift; path = "../../ios-persistence-2.0/CoreDataFavoriteActors/FavoriteActors/CoreDataStackManager.swift"; sourceTree = "<group>"; };
+		15F7B7DC1C52B3620029803F /* favoriteCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteCommentViewController.swift; sourceTree = "<group>"; };
+		15F7B7DF1C52B97E0029803F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +119,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1571BDA61C4544BE00E60C19 /* CFNetwork.framework in Frameworks */,
+				1571BDA71C4544BE00E60C19 /* CoreGraphics.framework in Frameworks */,
+				1571BDA81C4544BE00E60C19 /* CoreLocation.framework in Frameworks */,
+				1571BDA91C4544BE00E60C19 /* libz.tbd in Frameworks */,
+				1571BDAA1C4544BE00E60C19 /* QuartzCore.framework in Frameworks */,
+				1571BDAB1C4544BE00E60C19 /* Security.framework in Frameworks */,
+				1571BDAC1C4544BE00E60C19 /* StoreKit.framework in Frameworks */,
+				1571BDAD1C4544BE00E60C19 /* SystemConfiguration.framework in Frameworks */,
+				1571BD9D1C45448F00E60C19 /* AudioToolbox.framework in Frameworks */,
+				1571BD9B1C44866000E60C19 /* ParseUI.framework in Frameworks */,
+				1571BD971C44866000E60C19 /* Parse.framework in Frameworks */,
+				1571BD961C44866000E60C19 /* Bolts.framework in Frameworks */,
+				1571BD991C44866000E60C19 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				1571BD981C44866000E60C19 /* ParseFacebookUtils.framework in Frameworks */,
+				1571BDB21C45482D00E60C19 /* libsqlite3.dylib in Frameworks */,
+				1571BD9A1C44866000E60C19 /* ParseTwitterUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +155,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1522A26C1C4FFA6B00BA7D3C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				151109C11C46E1AA00747EA8 /* photosViewController.swift */,
+				1522A2661C4DDD9100BA7D3C /* commentsScrollView.swift */,
+				1571BDB31C4551F100E60C19 /* newPhotoViewController.swift */,
+				1571BD8C1C447D2B00E60C19 /* ForumTableViewCell.swift */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		1522A26D1C4FFA8300BA7D3C /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				1522A26A1C4EF15800BA7D3C /* newForumPostViewController.swift */,
+				1522A26E1C4FFD5800BA7D3C /* commentsViewController.swift */,
+				1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */,
+			);
+			name = Comments;
+			sourceTree = "<group>";
+		};
+		1535BE2F1C6114640006BD5A /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				15F7B7DC1C52B3620029803F /* favoriteCommentViewController.swift */,
+				1508B7C81C57F67000A08CC7 /* favoriteCommentTableViewCell.swift */,
+			);
+			name = Favorite;
+			sourceTree = "<group>";
+		};
+		1535BE301C6114820006BD5A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1535BE311C61149E0006BD5A /* HomeViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		1571BD4B1C443FB500E60C19 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +216,17 @@
 		1571BD561C443FB500E60C19 /* MyForum */ = {
 			isa = PBXGroup;
 			children = (
+				15F7B7DE1C52B97E0029803F /* Model.xcdatamodeld */,
+				15F7B7DA1C52B1BE0029803F /* CoreDataStackManager.swift */,
+				1571BD8E1C44865000E60C19 /* Framework */,
+				1571BD8B1C447BDF00E60C19 /* Model */,
+				1571BD8A1C447BD800E60C19 /* View */,
 				1571BD571C443FB500E60C19 /* AppDelegate.swift */,
-				1571BD591C443FB500E60C19 /* ViewController.swift */,
 				1571BD5B1C443FB500E60C19 /* Main.storyboard */,
 				1571BD611C443FB500E60C19 /* Assets.xcassets */,
 				1571BD631C443FB500E60C19 /* LaunchScreen.storyboard */,
 				1571BD661C443FB500E60C19 /* Info.plist */,
-				1571BD5E1C443FB500E60C19 /* MyForum.xcdatamodeld */,
+				1571BDAE1C45454D00E60C19 /* MyForum-Bridging-Header.h */,
 			);
 			path = MyForum;
 			sourceTree = "<group>";
@@ -126,6 +247,60 @@
 				1571BD7C1C443FB600E60C19 /* Info.plist */,
 			);
 			path = MyForumUITests;
+			sourceTree = "<group>";
+		};
+		1571BD8A1C447BD800E60C19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1535BE301C6114820006BD5A /* Main */,
+				1535BE2F1C6114640006BD5A /* Favorite */,
+				1522A26D1C4FFA8300BA7D3C /* Comments */,
+				1522A26C1C4FFA6B00BA7D3C /* Photos */,
+				1571BD591C443FB500E60C19 /* logiViewController.swift */,
+				1571BD881C4440A500E60C19 /* registerViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1571BD8B1C447BDF00E60C19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				151109C31C47FBF700747EA8 /* ForumPost.swift */,
+				1522A2681C4EEF3F00BA7D3C /* ForumComment.swift */,
+				15F7B7D81C52B1740029803F /* FavoriteComment.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1571BD8E1C44865000E60C19 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				1571BDB11C45482D00E60C19 /* libsqlite3.dylib */,
+				1571BDA11C4544BE00E60C19 /* libz.tbd */,
+				1571BD9E1C4544BE00E60C19 /* CFNetwork.framework */,
+				1571BD9F1C4544BE00E60C19 /* CoreGraphics.framework */,
+				1571BDA01C4544BE00E60C19 /* CoreLocation.framework */,
+				1571BDA21C4544BE00E60C19 /* QuartzCore.framework */,
+				1571BDA31C4544BE00E60C19 /* Security.framework */,
+				1571BDA41C4544BE00E60C19 /* StoreKit.framework */,
+				1571BDA51C4544BE00E60C19 /* SystemConfiguration.framework */,
+				1571BD9C1C45448F00E60C19 /* AudioToolbox.framework */,
+				1571BD8F1C44866000E60C19 /* parse-library-1-2 */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		1571BD8F1C44866000E60C19 /* parse-library-1-2 */ = {
+			isa = PBXGroup;
+			children = (
+				1571BD901C44866000E60C19 /* Bolts.framework */,
+				1571BD911C44866000E60C19 /* Parse.framework */,
+				1571BD921C44866000E60C19 /* ParseFacebookUtils.framework */,
+				1571BD931C44866000E60C19 /* ParseFacebookUtilsV4.framework */,
+				1571BD941C44866000E60C19 /* ParseTwitterUtils.framework */,
+				1571BD951C44866000E60C19 /* ParseUI.framework */,
+			);
+			path = "parse-library-1-2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +434,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1571BD601C443FB500E60C19 /* MyForum.xcdatamodeld in Sources */,
-				1571BD5A1C443FB500E60C19 /* ViewController.swift in Sources */,
+				15F7B7DD1C52B3620029803F /* favoriteCommentViewController.swift in Sources */,
+				1522A26F1C4FFD5800BA7D3C /* commentsViewController.swift in Sources */,
+				151109C41C47FBF700747EA8 /* ForumPost.swift in Sources */,
+				151109C21C46E1AA00747EA8 /* photosViewController.swift in Sources */,
+				1522A2691C4EEF3F00BA7D3C /* ForumComment.swift in Sources */,
+				1535BE321C61149E0006BD5A /* HomeViewController.swift in Sources */,
+				15F7B7D91C52B1740029803F /* FavoriteComment.swift in Sources */,
+				1508B7C91C57F67000A08CC7 /* favoriteCommentTableViewCell.swift in Sources */,
+				1522A2711C50021B00BA7D3C /* commentsTableViewCell.swift in Sources */,
+				15F7B7E01C52B97E0029803F /* Model.xcdatamodeld in Sources */,
+				1571BDB41C4551F100E60C19 /* newPhotoViewController.swift in Sources */,
+				15F7B7DB1C52B1BE0029803F /* CoreDataStackManager.swift in Sources */,
+				1571BD5A1C443FB500E60C19 /* logiViewController.swift in Sources */,
 				1571BD581C443FB500E60C19 /* AppDelegate.swift in Sources */,
+				1522A26B1C4EF15800BA7D3C /* newForumPostViewController.swift in Sources */,
+				1571BD8D1C447D2B00E60C19 /* ForumTableViewCell.swift in Sources */,
+				1571BD891C4440A500E60C19 /* registerViewController.swift in Sources */,
+				1522A2671C4DDD9100BA7D3C /* commentsScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +591,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyForum/parse-library-1-2",
+				);
 				INFOPLIST_FILE = MyForum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ge.MyForum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyForum/MyForum-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +610,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyForum/parse-library-1-2",
+				);
 				INFOPLIST_FILE = MyForum/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ge.MyForum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyForum/MyForum-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -486,6 +691,7 @@
 				1571BD811C443FB600E60C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1571BD821C443FB600E60C19 /* Build configuration list for PBXNativeTarget "MyForumTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +700,7 @@
 				1571BD841C443FB600E60C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1571BD851C443FB600E60C19 /* Build configuration list for PBXNativeTarget "MyForumUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,17 +709,19 @@
 				1571BD871C443FB600E60C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		1571BD5E1C443FB500E60C19 /* MyForum.xcdatamodeld */ = {
+		15F7B7DE1C52B97E0029803F /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				1571BD5F1C443FB500E60C19 /* MyForum.xcdatamodel */,
+				15F7B7DF1C52B97E0029803F /* Model.xcdatamodel */,
 			);
-			currentVersion = 1571BD5F1C443FB500E60C19 /* MyForum.xcdatamodel */;
-			path = MyForum.xcdatamodeld;
+			currentVersion = 15F7B7DF1C52B97E0029803F /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
