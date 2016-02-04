@@ -8,6 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		1508B7C91C57F67000A08CC7 /* favoriteCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508B7C81C57F67000A08CC7 /* favoriteCommentTableViewCell.swift */; };
+		150DF2F81C62E337007893A7 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2CC1C62E337007893A7 /* Model.xcdatamodeld */; };
+		150DF2F91C62E337007893A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2CF1C62E337007893A7 /* AppDelegate.swift */; };
+		150DF2FA1C62E337007893A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150DF2D01C62E337007893A7 /* Assets.xcassets */; };
+		150DF2FB1C62E337007893A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150DF2D11C62E337007893A7 /* LaunchScreen.storyboard */; };
+		150DF2FC1C62E337007893A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150DF2D31C62E337007893A7 /* Main.storyboard */; };
+		150DF2FD1C62E337007893A7 /* commentsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2D51C62E337007893A7 /* commentsScrollView.swift */; };
+		150DF2FE1C62E337007893A7 /* commentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2D61C62E337007893A7 /* commentsTableViewCell.swift */; };
+		150DF2FF1C62E337007893A7 /* commentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2D71C62E337007893A7 /* commentsViewController.swift */; };
+		150DF3001C62E337007893A7 /* FavoriteComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2D81C62E337007893A7 /* FavoriteComment.swift */; };
+		150DF3011C62E337007893A7 /* favoriteCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2D91C62E337007893A7 /* favoriteCommentTableViewCell.swift */; };
+		150DF3021C62E337007893A7 /* favoriteCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2DA1C62E337007893A7 /* favoriteCommentViewController.swift */; };
+		150DF3031C62E337007893A7 /* ForumComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2DB1C62E337007893A7 /* ForumComment.swift */; };
+		150DF3041C62E337007893A7 /* ForumPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2DC1C62E337007893A7 /* ForumPost.swift */; };
+		150DF3051C62E337007893A7 /* ForumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2DD1C62E337007893A7 /* ForumTableViewCell.swift */; };
+		150DF3061C62E337007893A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2DE1C62E337007893A7 /* HomeViewController.swift */; };
+		150DF3071C62E337007893A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150DF2DF1C62E337007893A7 /* Info.plist */; };
+		150DF3081C62E337007893A7 /* logiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2E01C62E337007893A7 /* logiViewController.swift */; };
+		150DF3091C62E337007893A7 /* MyForum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2E21C62E337007893A7 /* MyForum.xcdatamodeld */; };
+		150DF30A1C62E337007893A7 /* newForumPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2E41C62E337007893A7 /* newForumPostViewController.swift */; };
+		150DF30B1C62E337007893A7 /* newPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2E51C62E337007893A7 /* newPhotoViewController.swift */; };
+		150DF30C1C62E337007893A7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150DF2E71C62E337007893A7 /* Bolts.framework */; };
+		150DF30D1C62E337007893A7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150DF2E81C62E337007893A7 /* Parse.framework */; };
+		150DF30E1C62E337007893A7 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150DF2E91C62E337007893A7 /* ParseFacebookUtils.framework */; };
+		150DF30F1C62E337007893A7 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150DF2EA1C62E337007893A7 /* ParseFacebookUtilsV4.framework */; };
+		150DF3101C62E337007893A7 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150DF2EB1C62E337007893A7 /* ParseTwitterUtils.framework */; };
+		150DF3111C62E337007893A7 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150DF2EC1C62E337007893A7 /* ParseUI.framework */; };
+		150DF3121C62E337007893A7 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2ED1C62E337007893A7 /* photosViewController.swift */; };
+		150DF3131C62E337007893A7 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2EE1C62E337007893A7 /* registerViewController.swift */; };
+		150DF3141C62E337007893A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150DF2F31C62E337007893A7 /* Info.plist */; };
+		150DF3151C62E337007893A7 /* MyForumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2F41C62E337007893A7 /* MyForumTests.swift */; };
+		150DF3161C62E337007893A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150DF2F61C62E337007893A7 /* Info.plist */; };
+		150DF3171C62E337007893A7 /* MyForumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150DF2F71C62E337007893A7 /* MyForumUITests.swift */; };
+		150DF3191C62E3A4007893A7 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 150DF3181C62E3A4007893A7 /* readme */; };
 		151109C21C46E1AA00747EA8 /* photosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151109C11C46E1AA00747EA8 /* photosViewController.swift */; };
 		151109C41C47FBF700747EA8 /* ForumPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151109C31C47FBF700747EA8 /* ForumPost.swift */; };
 		1522A2671C4DDD9100BA7D3C /* commentsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A2661C4DDD9100BA7D3C /* commentsScrollView.swift */; };
@@ -67,6 +100,41 @@
 
 /* Begin PBXFileReference section */
 		1508B7C81C57F67000A08CC7 /* favoriteCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteCommentTableViewCell.swift; sourceTree = "<group>"; };
+		150DF2CD1C62E337007893A7 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		150DF2CF1C62E337007893A7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150DF2D01C62E337007893A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150DF2D21C62E337007893A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		150DF2D41C62E337007893A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150DF2D51C62E337007893A7 /* commentsScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsScrollView.swift; sourceTree = "<group>"; };
+		150DF2D61C62E337007893A7 /* commentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsTableViewCell.swift; sourceTree = "<group>"; };
+		150DF2D71C62E337007893A7 /* commentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsViewController.swift; sourceTree = "<group>"; };
+		150DF2D81C62E337007893A7 /* FavoriteComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteComment.swift; sourceTree = "<group>"; };
+		150DF2D91C62E337007893A7 /* favoriteCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteCommentTableViewCell.swift; sourceTree = "<group>"; };
+		150DF2DA1C62E337007893A7 /* favoriteCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoriteCommentViewController.swift; sourceTree = "<group>"; };
+		150DF2DB1C62E337007893A7 /* ForumComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumComment.swift; sourceTree = "<group>"; };
+		150DF2DC1C62E337007893A7 /* ForumPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumPost.swift; sourceTree = "<group>"; };
+		150DF2DD1C62E337007893A7 /* ForumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumTableViewCell.swift; sourceTree = "<group>"; };
+		150DF2DE1C62E337007893A7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		150DF2DF1C62E337007893A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150DF2E01C62E337007893A7 /* logiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logiViewController.swift; sourceTree = "<group>"; };
+		150DF2E11C62E337007893A7 /* MyForum-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyForum-Bridging-Header.h"; sourceTree = "<group>"; };
+		150DF2E31C62E337007893A7 /* MyForum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyForum.xcdatamodel; sourceTree = "<group>"; };
+		150DF2E41C62E337007893A7 /* newForumPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newForumPostViewController.swift; sourceTree = "<group>"; };
+		150DF2E51C62E337007893A7 /* newPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newPhotoViewController.swift; sourceTree = "<group>"; };
+		150DF2E71C62E337007893A7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		150DF2E81C62E337007893A7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		150DF2E91C62E337007893A7 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		150DF2EA1C62E337007893A7 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		150DF2EB1C62E337007893A7 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		150DF2EC1C62E337007893A7 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		150DF2ED1C62E337007893A7 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosViewController.swift; sourceTree = "<group>"; };
+		150DF2EE1C62E337007893A7 /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		150DF2EF1C62E337007893A7 /* MyForum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MyForum.xcodeproj; sourceTree = "<group>"; };
+		150DF2F31C62E337007893A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150DF2F41C62E337007893A7 /* MyForumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyForumTests.swift; sourceTree = "<group>"; };
+		150DF2F61C62E337007893A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150DF2F71C62E337007893A7 /* MyForumUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyForumUITests.swift; sourceTree = "<group>"; };
+		150DF3181C62E3A4007893A7 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		151109C11C46E1AA00747EA8 /* photosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photosViewController.swift; sourceTree = "<group>"; };
 		151109C31C47FBF700747EA8 /* ForumPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumPost.swift; sourceTree = "<group>"; };
 		1522A2661C4DDD9100BA7D3C /* commentsScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsScrollView.swift; sourceTree = "<group>"; };
@@ -119,18 +187,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150DF3111C62E337007893A7 /* ParseUI.framework in Frameworks */,
 				1571BDA61C4544BE00E60C19 /* CFNetwork.framework in Frameworks */,
 				1571BDA71C4544BE00E60C19 /* CoreGraphics.framework in Frameworks */,
 				1571BDA81C4544BE00E60C19 /* CoreLocation.framework in Frameworks */,
 				1571BDA91C4544BE00E60C19 /* libz.tbd in Frameworks */,
 				1571BDAA1C4544BE00E60C19 /* QuartzCore.framework in Frameworks */,
+				150DF30E1C62E337007893A7 /* ParseFacebookUtils.framework in Frameworks */,
 				1571BDAB1C4544BE00E60C19 /* Security.framework in Frameworks */,
 				1571BDAC1C4544BE00E60C19 /* StoreKit.framework in Frameworks */,
 				1571BDAD1C4544BE00E60C19 /* SystemConfiguration.framework in Frameworks */,
 				1571BD9D1C45448F00E60C19 /* AudioToolbox.framework in Frameworks */,
+				150DF3101C62E337007893A7 /* ParseTwitterUtils.framework in Frameworks */,
 				1571BD9B1C44866000E60C19 /* ParseUI.framework in Frameworks */,
+				150DF30D1C62E337007893A7 /* Parse.framework in Frameworks */,
 				1571BD971C44866000E60C19 /* Parse.framework in Frameworks */,
 				1571BD961C44866000E60C19 /* Bolts.framework in Frameworks */,
+				150DF30F1C62E337007893A7 /* ParseFacebookUtilsV4.framework in Frameworks */,
+				150DF30C1C62E337007893A7 /* Bolts.framework in Frameworks */,
 				1571BD991C44866000E60C19 /* ParseFacebookUtilsV4.framework in Frameworks */,
 				1571BD981C44866000E60C19 /* ParseFacebookUtils.framework in Frameworks */,
 				1571BDB21C45482D00E60C19 /* libsqlite3.dylib in Frameworks */,
@@ -155,6 +229,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150DF2CB1C62E337007893A7 /* MyForum */ = {
+			isa = PBXGroup;
+			children = (
+				150DF2CC1C62E337007893A7 /* Model.xcdatamodeld */,
+				150DF2CE1C62E337007893A7 /* MyForum */,
+				150DF2EF1C62E337007893A7 /* MyForum.xcodeproj */,
+				150DF2F21C62E337007893A7 /* MyForumTests */,
+				150DF2F51C62E337007893A7 /* MyForumUITests */,
+			);
+			name = MyForum;
+			sourceTree = "<group>";
+		};
+		150DF2CE1C62E337007893A7 /* MyForum */ = {
+			isa = PBXGroup;
+			children = (
+				150DF2CF1C62E337007893A7 /* AppDelegate.swift */,
+				150DF2D01C62E337007893A7 /* Assets.xcassets */,
+				150DF2D11C62E337007893A7 /* LaunchScreen.storyboard */,
+				150DF2D31C62E337007893A7 /* Main.storyboard */,
+				150DF2D51C62E337007893A7 /* commentsScrollView.swift */,
+				150DF2D61C62E337007893A7 /* commentsTableViewCell.swift */,
+				150DF2D71C62E337007893A7 /* commentsViewController.swift */,
+				150DF2D81C62E337007893A7 /* FavoriteComment.swift */,
+				150DF2D91C62E337007893A7 /* favoriteCommentTableViewCell.swift */,
+				150DF2DA1C62E337007893A7 /* favoriteCommentViewController.swift */,
+				150DF2DB1C62E337007893A7 /* ForumComment.swift */,
+				150DF2DC1C62E337007893A7 /* ForumPost.swift */,
+				150DF2DD1C62E337007893A7 /* ForumTableViewCell.swift */,
+				150DF2DE1C62E337007893A7 /* HomeViewController.swift */,
+				150DF2DF1C62E337007893A7 /* Info.plist */,
+				150DF2E01C62E337007893A7 /* logiViewController.swift */,
+				150DF2E11C62E337007893A7 /* MyForum-Bridging-Header.h */,
+				150DF2E21C62E337007893A7 /* MyForum.xcdatamodeld */,
+				150DF2E41C62E337007893A7 /* newForumPostViewController.swift */,
+				150DF2E51C62E337007893A7 /* newPhotoViewController.swift */,
+				150DF2E61C62E337007893A7 /* parse-library-1-2 */,
+				150DF2ED1C62E337007893A7 /* photosViewController.swift */,
+				150DF2EE1C62E337007893A7 /* registerViewController.swift */,
+			);
+			path = MyForum;
+			sourceTree = "<group>";
+		};
+		150DF2E61C62E337007893A7 /* parse-library-1-2 */ = {
+			isa = PBXGroup;
+			children = (
+				150DF2E71C62E337007893A7 /* Bolts.framework */,
+				150DF2E81C62E337007893A7 /* Parse.framework */,
+				150DF2E91C62E337007893A7 /* ParseFacebookUtils.framework */,
+				150DF2EA1C62E337007893A7 /* ParseFacebookUtilsV4.framework */,
+				150DF2EB1C62E337007893A7 /* ParseTwitterUtils.framework */,
+				150DF2EC1C62E337007893A7 /* ParseUI.framework */,
+			);
+			path = "parse-library-1-2";
+			sourceTree = "<group>";
+		};
+		150DF2F01C62E337007893A7 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150DF2F21C62E337007893A7 /* MyForumTests */ = {
+			isa = PBXGroup;
+			children = (
+				150DF2F31C62E337007893A7 /* Info.plist */,
+				150DF2F41C62E337007893A7 /* MyForumTests.swift */,
+			);
+			path = MyForumTests;
+			sourceTree = "<group>";
+		};
+		150DF2F51C62E337007893A7 /* MyForumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				150DF2F61C62E337007893A7 /* Info.plist */,
+				150DF2F71C62E337007893A7 /* MyForumUITests.swift */,
+			);
+			path = MyForumUITests;
+			sourceTree = "<group>";
+		};
 		1522A26C1C4FFA6B00BA7D3C /* Photos */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +348,8 @@
 		1571BD4B1C443FB500E60C19 = {
 			isa = PBXGroup;
 			children = (
+				150DF3181C62E3A4007893A7 /* readme */,
+				150DF2CB1C62E337007893A7 /* MyForum */,
 				1571BD561C443FB500E60C19 /* MyForum */,
 				1571BD6E1C443FB600E60C19 /* MyForumTests */,
 				1571BD791C443FB600E60C19 /* MyForumUITests */,
@@ -393,6 +547,12 @@
 			mainGroup = 1571BD4B1C443FB500E60C19;
 			productRefGroup = 1571BD551C443FB500E60C19 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 150DF2F01C62E337007893A7 /* Products */;
+					ProjectRef = 150DF2EF1C62E337007893A7 /* MyForum.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1571BD531C443FB500E60C19 /* MyForum */,
@@ -407,9 +567,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150DF3191C62E3A4007893A7 /* readme in Resources */,
+				150DF3141C62E337007893A7 /* Info.plist in Resources */,
 				1571BD651C443FB500E60C19 /* LaunchScreen.storyboard in Resources */,
+				150DF3161C62E337007893A7 /* Info.plist in Resources */,
 				1571BD621C443FB500E60C19 /* Assets.xcassets in Resources */,
+				150DF2FA1C62E337007893A7 /* Assets.xcassets in Resources */,
+				150DF2FC1C62E337007893A7 /* Main.storyboard in Resources */,
+				150DF2FB1C62E337007893A7 /* LaunchScreen.storyboard in Resources */,
 				1571BD5D1C443FB500E60C19 /* Main.storyboard in Resources */,
+				150DF3071C62E337007893A7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,23 +601,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150DF3081C62E337007893A7 /* logiViewController.swift in Sources */,
 				15F7B7DD1C52B3620029803F /* favoriteCommentViewController.swift in Sources */,
 				1522A26F1C4FFD5800BA7D3C /* commentsViewController.swift in Sources */,
+				150DF3131C62E337007893A7 /* registerViewController.swift in Sources */,
+				150DF2FD1C62E337007893A7 /* commentsScrollView.swift in Sources */,
 				151109C41C47FBF700747EA8 /* ForumPost.swift in Sources */,
 				151109C21C46E1AA00747EA8 /* photosViewController.swift in Sources */,
+				150DF3061C62E337007893A7 /* HomeViewController.swift in Sources */,
+				150DF3151C62E337007893A7 /* MyForumTests.swift in Sources */,
 				1522A2691C4EEF3F00BA7D3C /* ForumComment.swift in Sources */,
 				1535BE321C61149E0006BD5A /* HomeViewController.swift in Sources */,
 				15F7B7D91C52B1740029803F /* FavoriteComment.swift in Sources */,
+				150DF3121C62E337007893A7 /* photosViewController.swift in Sources */,
 				1508B7C91C57F67000A08CC7 /* favoriteCommentTableViewCell.swift in Sources */,
+				150DF3031C62E337007893A7 /* ForumComment.swift in Sources */,
+				150DF2F91C62E337007893A7 /* AppDelegate.swift in Sources */,
 				1522A2711C50021B00BA7D3C /* commentsTableViewCell.swift in Sources */,
 				15F7B7E01C52B97E0029803F /* Model.xcdatamodeld in Sources */,
 				1571BDB41C4551F100E60C19 /* newPhotoViewController.swift in Sources */,
 				15F7B7DB1C52B1BE0029803F /* CoreDataStackManager.swift in Sources */,
+				150DF3021C62E337007893A7 /* favoriteCommentViewController.swift in Sources */,
 				1571BD5A1C443FB500E60C19 /* logiViewController.swift in Sources */,
+				150DF2FE1C62E337007893A7 /* commentsTableViewCell.swift in Sources */,
+				150DF3171C62E337007893A7 /* MyForumUITests.swift in Sources */,
 				1571BD581C443FB500E60C19 /* AppDelegate.swift in Sources */,
 				1522A26B1C4EF15800BA7D3C /* newForumPostViewController.swift in Sources */,
+				150DF2FF1C62E337007893A7 /* commentsViewController.swift in Sources */,
+				150DF3001C62E337007893A7 /* FavoriteComment.swift in Sources */,
+				150DF30B1C62E337007893A7 /* newPhotoViewController.swift in Sources */,
 				1571BD8D1C447D2B00E60C19 /* ForumTableViewCell.swift in Sources */,
 				1571BD891C4440A500E60C19 /* registerViewController.swift in Sources */,
+				150DF2F81C62E337007893A7 /* Model.xcdatamodeld in Sources */,
+				150DF3091C62E337007893A7 /* MyForum.xcdatamodeld in Sources */,
+				150DF3051C62E337007893A7 /* ForumTableViewCell.swift in Sources */,
+				150DF30A1C62E337007893A7 /* newForumPostViewController.swift in Sources */,
+				150DF3041C62E337007893A7 /* ForumPost.swift in Sources */,
+				150DF3011C62E337007893A7 /* favoriteCommentTableViewCell.swift in Sources */,
 				1522A2671C4DDD9100BA7D3C /* commentsScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +674,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		150DF2D11C62E337007893A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150DF2D21C62E337007893A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		150DF2D31C62E337007893A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150DF2D41C62E337007893A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		1571BD5B1C443FB500E60C19 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -714,6 +917,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		150DF2CC1C62E337007893A7 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				150DF2CD1C62E337007893A7 /* Model.xcdatamodel */,
+			);
+			currentVersion = 150DF2CD1C62E337007893A7 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		150DF2E21C62E337007893A7 /* MyForum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				150DF2E31C62E337007893A7 /* MyForum.xcdatamodel */,
+			);
+			currentVersion = 150DF2E31C62E337007893A7 /* MyForum.xcdatamodel */;
+			path = MyForum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		15F7B7DE1C52B97E0029803F /* Model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
