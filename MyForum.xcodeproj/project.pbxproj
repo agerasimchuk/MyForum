@@ -15,6 +15,7 @@
 		1522A26B1C4EF15800BA7D3C /* newForumPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A26A1C4EF15800BA7D3C /* newForumPostViewController.swift */; };
 		1522A26F1C4FFD5800BA7D3C /* commentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A26E1C4FFD5800BA7D3C /* commentsViewController.swift */; };
 		1522A2711C50021B00BA7D3C /* commentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */; };
+		152E4E751C63C6F200F8F650 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 152E4E741C63C6F200F8F650 /* readme */; };
 		1535BE321C61149E0006BD5A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535BE311C61149E0006BD5A /* HomeViewController.swift */; };
 		1571BD581C443FB500E60C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD571C443FB500E60C19 /* AppDelegate.swift */; };
 		1571BD5A1C443FB500E60C19 /* logiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD591C443FB500E60C19 /* logiViewController.swift */; };
@@ -74,6 +75,7 @@
 		1522A26A1C4EF15800BA7D3C /* newForumPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newForumPostViewController.swift; sourceTree = "<group>"; };
 		1522A26E1C4FFD5800BA7D3C /* commentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsViewController.swift; sourceTree = "<group>"; };
 		1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsTableViewCell.swift; sourceTree = "<group>"; };
+		152E4E741C63C6F200F8F650 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		1535BE311C61149E0006BD5A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1571BD541C443FB500E60C19 /* MyForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1571BD571C443FB500E60C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 		1571BD4B1C443FB500E60C19 = {
 			isa = PBXGroup;
 			children = (
+				152E4E741C63C6F200F8F650 /* readme */,
 				1571BD561C443FB500E60C19 /* MyForum */,
 				1571BD6E1C443FB600E60C19 /* MyForumTests */,
 				1571BD791C443FB600E60C19 /* MyForumUITests */,
@@ -407,6 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				152E4E751C63C6F200F8F650 /* readme in Resources */,
 				1571BD651C443FB500E60C19 /* LaunchScreen.storyboard in Resources */,
 				1571BD621C443FB500E60C19 /* Assets.xcassets in Resources */,
 				1571BD5D1C443FB500E60C19 /* Main.storyboard in Resources */,
