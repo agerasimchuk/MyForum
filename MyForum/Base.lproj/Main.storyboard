@@ -413,7 +413,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" indentationWidth="10" reuseIdentifier="CommentPostCell" rowHeight="130" id="U1w-k1-ANk" customClass="commentsTableViewCell" customModule="MyForum">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" selectionStyle="blue" indentationWidth="10" reuseIdentifier="CommentPostCell" rowHeight="130" id="U1w-k1-ANk" customClass="commentsTableViewCell" customModule="MyForum">
                                 <rect key="frame" x="0.0" y="92" width="600" height="130"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="U1w-k1-ANk" id="KDX-N4-zqt">
@@ -426,7 +426,7 @@
                                             <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-AI-wRi">
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-AI-wRi">
                                             <rect key="frame" x="8" y="49" width="584" height="80"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
@@ -464,6 +464,9 @@
                                         <constraint firstItem="5kt-Vf-Hmc" firstAttribute="top" secondItem="KDX-N4-zqt" secondAttribute="topMargin" constant="20" id="mYX-87-3gW"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" adjustable="YES"/>
+                                </accessibility>
                                 <connections>
                                     <outlet property="commentText" destination="PWb-AI-wRi" id="HDg-Wp-ZFE"/>
                                     <outlet property="titleLable" destination="5kt-Vf-Hmc" id="KIa-or-Yge"/>
