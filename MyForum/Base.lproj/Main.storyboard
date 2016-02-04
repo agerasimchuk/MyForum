@@ -5,6 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
     </dependencies>
     <scenes>
         <!--Login-->
@@ -130,16 +131,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Krl-qZ-p6g">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" red="0.52327311738507576" green="0.64975298270016768" blue="0.84121964126559723" alpha="0.38" colorSpace="calibratedRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rhb-Im-E37">
-                                <rect key="frame" x="227" y="215" width="146" height="172"/>
+                                <rect key="frame" x="227" y="214" width="146" height="172"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3S-vA-dCK">
                                         <rect key="frame" x="0.0" y="111" width="146" height="52"/>
-                                        <color key="backgroundColor" red="0.54800681467362744" green="0.58430231900090213" blue="0.65584498477421271" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="My Favorites">
                                             <color key="titleColor" red="0.18245980949999999" green="0.19454446" blue="0.21836471330000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -150,7 +146,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u0-44-dMS">
                                         <rect key="frame" x="0.0" y="58" width="146" height="51"/>
-                                        <color key="backgroundColor" red="0.54800681467362744" green="0.58430231900090213" blue="0.65584498477421271" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="My Photos">
                                             <color key="titleColor" red="0.18245980949999999" green="0.19454446" blue="0.21836471330000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -161,7 +156,6 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQJ-E7-mbl">
                                         <rect key="frame" x="0.0" y="8" width="146" height="48"/>
-                                        <color key="backgroundColor" red="0.54800681467362744" green="0.58430231900090213" blue="0.65584498477421271" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="PingFangTC-Regular" family="PingFang TC" pointSize="20"/>
                                         <state key="normal" title="My Forum">
                                             <color key="titleColor" red="0.18245980949155588" green="0.19454445995142031" blue="0.21836471330956619" alpha="1" colorSpace="calibratedRGB"/>
@@ -174,7 +168,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXl-Qb-iy6">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXl-Qb-iy6">
                                 <rect key="frame" x="20" y="64" width="73" height="30"/>
                                 <state key="normal" title="Logout"/>
                                 <connections>
@@ -184,14 +178,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Krl-qZ-p6g" firstAttribute="bottom" secondItem="AS9-rL-Kd6" secondAttribute="bottomMargin" id="ArY-7Z-6TC"/>
-                            <constraint firstItem="bXl-Qb-iy6" firstAttribute="leading" secondItem="AS9-rL-Kd6" secondAttribute="leadingMargin" id="I0a-U6-OJX"/>
-                            <constraint firstItem="rhb-Im-E37" firstAttribute="centerY" secondItem="AS9-rL-Kd6" secondAttribute="centerY" id="dRm-bD-NUP"/>
-                            <constraint firstItem="rhb-Im-E37" firstAttribute="centerX" secondItem="AS9-rL-Kd6" secondAttribute="centerX" id="fXs-rN-Peq"/>
-                            <constraint firstItem="Krl-qZ-p6g" firstAttribute="leading" secondItem="AS9-rL-Kd6" secondAttribute="leadingMargin" constant="-20" id="hy3-zy-AYg"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Krl-qZ-p6g" secondAttribute="trailing" constant="-20" id="i3a-Ws-nig"/>
-                            <constraint firstItem="Krl-qZ-p6g" firstAttribute="top" secondItem="AS9-rL-Kd6" secondAttribute="topMargin" id="q2E-Q2-8Sy"/>
-                            <constraint firstItem="bXl-Qb-iy6" firstAttribute="top" secondItem="9c1-uq-hba" secondAttribute="bottom" id="vXZ-Kt-B9a"/>
+                            <constraint firstItem="rhb-Im-E37" firstAttribute="centerX" secondItem="AS9-rL-Kd6" secondAttribute="centerX" id="Bbd-OI-ukG"/>
+                            <constraint firstItem="rhb-Im-E37" firstAttribute="centerY" secondItem="AS9-rL-Kd6" secondAttribute="centerY" id="Zdd-qH-3z6"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -265,7 +253,7 @@
                     <navigationItem key="navigationItem" title="Favorites" id="YZS-Kj-Jwh">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="fFq-JJ-XuU">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SsJ-vh-3b8">
-                                <rect key="frame" x="20" y="7" width="133" height="30"/>
+                                <rect key="frame" x="20" y="7" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -330,7 +318,7 @@
                     <navigationItem key="navigationItem" title="Pictures" id="Mpr-bs-VzS">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="0Jb-AE-Hrt">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fIh-1j-JGH">
-                                <rect key="frame" x="20" y="7" width="88" height="30"/>
+                                <rect key="frame" x="20" y="7" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -373,7 +361,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ejg-2n-n64">
-                                <rect key="frame" x="20" y="521" width="168" height="30"/>
+                                <rect key="frame" x="20" y="521" width="200" height="30"/>
                                 <state key="normal" title="Select Picture"/>
                                 <connections>
                                     <action selector="selectPicturePressed:" destination="Q5r-iI-yPX" eventType="touchUpInside" id="6Wj-tr-laV"/>
@@ -438,12 +426,6 @@
                                             <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UV-DD-rXL">
-                                            <rect key="frame" x="8" y="8" width="584" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWb-AI-wRi">
                                             <rect key="frame" x="8" y="49" width="584" height="80"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -454,6 +436,18 @@
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Save" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muS-dH-glu">
+                                            <rect key="frame" x="491" y="9" width="101" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.60392159223556519" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1UV-DD-rXL">
+                                            <rect key="frame" x="-92" y="8" width="483" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="PWb-AI-wRi" firstAttribute="top" secondItem="5kt-Vf-Hmc" secondAttribute="bottom" id="5Rs-5B-Wze"/>
@@ -485,7 +479,7 @@
                     <navigationItem key="navigationItem" title="Forum" id="qJv-RX-F8b">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="LTS-XQ-p62">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7qP-pM-zPe">
-                                <rect key="frame" x="20" y="7" width="133" height="30"/>
+                                <rect key="frame" x="20" y="7" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
@@ -493,11 +487,23 @@
                                 </connections>
                             </button>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="wTH-zU-WrJ">
-                            <connections>
-                                <segue destination="FzI-jE-SPb" kind="show" id="Col-xe-HBg"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" systemItem="add" id="wTH-zU-WrJ">
+                                <connections>
+                                    <segue destination="FzI-jE-SPb" kind="show" id="Col-xe-HBg"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem style="plain" id="hq3-Jm-Ku3">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VxJ-6c-NkF">
+                                    <rect key="frame" x="464" y="7" width="80" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Favorites"/>
+                                    <connections>
+                                        <segue destination="Xed-rD-Ma0" kind="show" id="sOA-8x-crK"/>
+                                    </connections>
+                                </button>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rec-Ka-SPy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -651,4 +657,7 @@
             <point key="canvasLocation" x="2036" y="1004"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="sOA-8x-crK"/>
+    </inferredMetricsTieBreakers>
 </document>
