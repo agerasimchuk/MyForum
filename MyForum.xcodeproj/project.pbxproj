@@ -17,6 +17,7 @@
 		1522A2711C50021B00BA7D3C /* commentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */; };
 		152E4E751C63C6F200F8F650 /* readme in Resources */ = {isa = PBXBuildFile; fileRef = 152E4E741C63C6F200F8F650 /* readme */; };
 		1535BE321C61149E0006BD5A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1535BE311C61149E0006BD5A /* HomeViewController.swift */; };
+		154F009D1C64460600EDE68C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F009C1C64460600EDE68C /* GlobalVariables.swift */; };
 		1571BD581C443FB500E60C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD571C443FB500E60C19 /* AppDelegate.swift */; };
 		1571BD5A1C443FB500E60C19 /* logiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1571BD591C443FB500E60C19 /* logiViewController.swift */; };
 		1571BD5D1C443FB500E60C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1571BD5B1C443FB500E60C19 /* Main.storyboard */; };
@@ -77,6 +78,7 @@
 		1522A2701C50021B00BA7D3C /* commentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commentsTableViewCell.swift; sourceTree = "<group>"; };
 		152E4E741C63C6F200F8F650 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
 		1535BE311C61149E0006BD5A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		154F009C1C64460600EDE68C /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		1571BD541C443FB500E60C19 /* MyForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1571BD571C443FB500E60C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1571BD591C443FB500E60C19 /* logiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logiViewController.swift; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 				151109C31C47FBF700747EA8 /* ForumPost.swift */,
 				1522A2681C4EEF3F00BA7D3C /* ForumComment.swift */,
 				15F7B7D81C52B1740029803F /* FavoriteComment.swift */,
+				154F009C1C64460600EDE68C /* GlobalVariables.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -448,6 +451,7 @@
 				1508B7C91C57F67000A08CC7 /* favoriteCommentTableViewCell.swift in Sources */,
 				1522A2711C50021B00BA7D3C /* commentsTableViewCell.swift in Sources */,
 				15F7B7E01C52B97E0029803F /* Model.xcdatamodeld in Sources */,
+				154F009D1C64460600EDE68C /* GlobalVariables.swift in Sources */,
 				1571BDB41C4551F100E60C19 /* newPhotoViewController.swift in Sources */,
 				15F7B7DB1C52B1BE0029803F /* CoreDataStackManager.swift in Sources */,
 				1571BD5A1C443FB500E60C19 /* logiViewController.swift in Sources */,

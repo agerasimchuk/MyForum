@@ -84,37 +84,6 @@ class newForumPostViewController: UIViewController, UITextViewDelegate, UITextFi
         }
 
     }
-    /*
-    func textViewDidEndEditing(textView: UITextView) {
-  
-        
-            print("test.view:  \(textView.text)")
-            saveComment.enabled = false
-            //saveComment.enabled = true
-            commentField.text = ""
-            commentField.textColor = UIColor.darkGrayColor()
-            
-            if textView.text.isEmpty{
-                print("test.view:  \(textView.text)")
-                saveComment.enabled = false
-            }else{
-                saveComment.enabled = true
-                print("text now: \(textView.text)")
-            }
-    }
-
-    */
-    /*
-    func textfieldsho(textView: UITextField) -> Bool {
-        if textView == commentTitle && textView.text == PLACEHOLDER_TITLE{
-            saveComment.enabled = true
-            commentField.text = ""
-            commentField.textColor = UIColor.darkGrayColor()
-        }
-        return true
-    }
-*/
-    
 }
 
 

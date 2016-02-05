@@ -15,6 +15,7 @@ class commentsTableViewCell: PFTableViewCell {
     @IBOutlet weak var commentText: UITextView!
     @IBOutlet weak var titleLable: UILabel!
     @IBOutlet weak var userLabel: UILabel!
+    @IBOutlet weak var saveButton: UILabel!
 
 
     

@@ -23,7 +23,7 @@ class ForumComment: PFObject{
         return query
     }
     
-    //init(image: PFFile, user: PFUser, comment: String?){
+
     init(comment: String?, title: String?, user: PFUser){
         super.init()
         

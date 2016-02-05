@@ -76,20 +76,6 @@ class favoriteCommentsViewController: UITableViewController, NSFetchedResultsCon
         tableView.reloadData()
     }
     
-    /*
-    func fetchAllComments() -> [FavoriteComment] {
-        // Create the fetch request
-        let fetchRequest = NSFetchRequest(entityName: "FavoriteComment")
-        // Execute the Fetch Request
-        do {
-            return try sharedContext.executeFetchRequest(fetchRequest) as! [FavoriteComment]
-        } catch let error as NSError {
-            print("Error in fetchAllActors(): \(error)")
-            return [FavoriteComment]()
-        }
-    }
-*/
-    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //print("Comments count is: \(comments.count)")
         //return comments.count
@@ -119,13 +105,7 @@ class favoriteCommentsViewController: UITableViewController, NSFetchedResultsCon
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
         return true
     }
-    /*
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if (editingStyle == UITableViewCellEditingStyle.Delete) {
-            // handle delete (by removing the data from your array and updating the tableview)
-        }
-    }
-    */
+
     
     override func tableView(tableView: UITableView,
         commitEditingStyle editingStyle: UITableViewCellEditingStyle,
@@ -187,7 +167,6 @@ class favoriteCommentsViewController: UITableViewController, NSFetchedResultsCon
             case .Update:
                 let cell = tableView.cellForRowAtIndexPath(indexPath!) as! favoriteCommentTableViewCell
                 let comment = controller.objectAtIndexPath(indexPath!) as! FavoriteComment
-                //self.configureCell(cell, withActor: comment)
                 cell.fComment.text = comment.comment
                 
             case .Move:

@@ -14,6 +14,7 @@ import CoreData
 class commentsViewController: PFQueryTableViewController, NSFetchedResultsControllerDelegate{
     
     //var fcomment = [FavoriteComment]()
+
     
     lazy var sharedContext: NSManagedObjectContext = {
         return CoreDataStackManager.sharedInstance().managedObjectContext
@@ -27,6 +28,10 @@ class commentsViewController: PFQueryTableViewController, NSFetchedResultsContro
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print("Saved in view DID LOad is : \(GlobalVariables.sharedManager.saved)")
+        self.tableView.estimatedRowHeight = 500
+        self.tableView.rowHeight = UITableViewAutomaticDimension
 
         
     }
@@ -48,82 +53,84 @@ class commentsViewController: PFQueryTableViewController, NSFetchedResultsContro
     }
 
     //table delegate method
+    
+
     //TABLE DELEGATE METHODS
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath, object: PFObject!) -> PFTableViewCell? {
 
         
         let cell = tableView.dequeueReusableCellWithIdentifier("CommentPostCell", forIndexPath: indexPath) as! commentsTableViewCell
-        
-        /*
-        if (){
-            cell.accessoryType = .Checkmark
-            tableView.selectRowAtIndexPath(indexPath, animated: false, scrollPosition: UITableViewScrollPosition.Bottom)
-        } else {
-            cell.accessoryType = .None
-        }
-    */
-        // let forumPost = object as! ForumPost
 
+        //print("saved before check: \(GlobalVariables.sharedManager.saved)")
+        //print("indexpath is: \(indexPath.row)")
+
+        
+        if (GlobalVariables.sharedManager.saved.count) == indexPath.row{
+            GlobalVariables.sharedManager.saved.insert(false, atIndex: indexPath.row)
+            print("Saved globallry: \(GlobalVariables.sharedManager.saved)")
+        
+        }
+        
         let commentPost = object as! ForumComment
         
         cell.titleLable.text = commentPost.title
         cell.commentText.text = commentPost.comment
-        //cell.userLabel = commentPost.user
-        //cell.userLabel = commentPost.user.username
         cell.userLabel.text = commentPost.user.username
         return cell
     }
     
 
-    
-    
 
     //https://github.com/ParsePlatform/ParseUI-iOS/blob/master/ParseUIDemo/Swift/CustomViewControllers/ProductTableViewController/CustomProductTableViewController.swift
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
     {
+     
         if let cell = tableView.cellForRowAtIndexPath(indexPath) {
-            //cell.accessoryType = UITableViewCellAccessoryType.Checkmark
+
         }
+
         
+        let cell = tableView.dequeueReusableCellWithIdentifier("CommentPostCell", forIndexPath: indexPath) as! commentsTableViewCell
+
         let commentPost = objects?[indexPath.row] as! ForumComment
-        
-        //let commentPostT = objects as! ForumComment
-        //print("Here is the favorite comment : \(commentPost)")
-        var userValue:String? = commentPost.user.username! as! AnyObject? as? String!
-        
-        //var userValue: String = commentPost.valueForKey("user") as! String
 
+        //print("what is saved: \(GlobalVariables.sharedManager.saved)")
         
-        print("this is the user: \(userValue)")
-        //print("user value is now: \(commentPost.valueForKey("user")!)")
-        
-        var commentDictionary = [String: AnyObject]()
-        commentDictionary[FavoriteComment.Keys.Comment] = commentPost.valueForKey("comment")
-        commentDictionary[FavoriteComment.Keys.Title] = commentPost.valueForKey("title")
-        //commentDictionary[FavoriteComment.Keys.User] = commentPost?.valueForKey("user")
-        //commentDictionary[FavoriteComment.Keys.User] = userValue
-        commentDictionary[FavoriteComment.Keys.User] = userValue
-        
-        
-        //print("commentDictionary is : \(commentDictionary[FavoriteComment.Keys.Comment]! )")
-         //add the new comment to the CoreData object and save
+        if (GlobalVariables.sharedManager.saved[indexPath.row] ){
+            var savedAlert = UIAlertView()
+            savedAlert.title = "Entry Saved Previously!"
+            savedAlert.addButtonWithTitle("OK")
+            savedAlert.show()
+        }else{
 
-        let favoriteComment = FavoriteComment(dictionary: commentDictionary, context: self.sharedContext)
-        
-        print("favoriteComment: \(favoriteComment.comment)")
-        
-               //self.fcomment.append(favoriteComment)
-        
-        CoreDataStackManager.sharedInstance().saveContext()
-        
-        //print("And now the Favorite Comments are: \(fcomment)")
-           }
-    
-    override func tableView(tableView: UITableView, didDeselectRowAtIndexPath indexPath: NSIndexPath) {
-        if let cell = tableView.cellForRowAtIndexPath(indexPath) {
-            cell.accessoryType = .None
+            var savedAlert = UIAlertView()
+            savedAlert.title = "Entry Saved!"
+            savedAlert.addButtonWithTitle("OK")
+            savedAlert.show()
+            
+            
+            GlobalVariables.sharedManager.saved[indexPath.row] = true
+            
+            var userValue:String? = commentPost.user.username! as! AnyObject? as? String!
+            
+            print("this is the user: \(userValue)")
+            //print("user value is now: \(commentPost.valueForKey("user")!)")
+            
+            var commentDictionary = [String: AnyObject]()
+            commentDictionary[FavoriteComment.Keys.Comment] = commentPost.valueForKey("comment")
+            commentDictionary[FavoriteComment.Keys.Title] = commentPost.valueForKey("title")
+            commentDictionary[FavoriteComment.Keys.User] = userValue
+            
+            //add the new comment to the CoreData object and save
+            let favoriteComment = FavoriteComment(dictionary: commentDictionary, context: self.sharedContext)
+            
+            print("favoriteComment: \(favoriteComment.comment)")
+            CoreDataStackManager.sharedInstance().saveContext()
+
         }
+
+        //print("Saved count is this: \(GlobalVariables.sharedManager.saved)")
     }
     
 
